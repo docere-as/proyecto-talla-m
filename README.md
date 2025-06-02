@@ -8,7 +8,7 @@ desarrollo del proyecto.
 Dentro de este repositorio:
 
 1. Elaborar una propuesta de proyecto siguiendo las normas indicadas
-   en [normas_propuesta.md](normas para la propuesta) y someterla a
+   en [normas para la propuesta](normas_propuesta.md) y someterla a
    aprobación.
 
 2. Una vez admitida la propuesta del proyecto, incluir la
@@ -17,7 +17,7 @@ Dentro de este repositorio:
    que contiene el propio fichero.
 
 3. Cubrir los datos indicados en el fichero
-   [proyecto.md](proyecto.md], respetando el formato original.
+   [proyecto.md](proyecto.md), respetando el formato original.
    
 4. Usar `mix new` para crear la estructura inicial del código del
    proyecto.
@@ -44,7 +44,7 @@ Dentro de este repositorio:
 
 
 Durante el desarrollo del proyecto usar la siguiente
-[guía_evaluación.md](guía para la evaluación), para realizar una
+[guía para la evaluación](guía_evaluación.md), para realizar una
 autoevaluación del progreso.
 
 
