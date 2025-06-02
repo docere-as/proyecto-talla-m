@@ -106,3 +106,4 @@ La documentación del proyecto incluye:
   - Documentación de los tests. Tal y como se describe en el apartado
     correspondiente.
 
+  - El material audiovisual empleado en la presentación.
