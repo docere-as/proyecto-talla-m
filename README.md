@@ -40,7 +40,7 @@ Dentro de este repositorio:
 
 8. Presentar los resultados en la última semana del cuatrimestre. La
    presentación es presencial y debe seguir las siguientes
-   [normas_presentación.md](normas para la presentación).
+   [normas para la presentación](normas_presentación.md).
 
 
 Durante el desarrollo del proyecto usar la siguiente
