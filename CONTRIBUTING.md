@@ -7,15 +7,16 @@
 
 - Se recomienda usar anotaciones de tipos con `typespec` y demás.
 
-- El formato para el código viene dado por la configuración por defecto de `mix format`.
+- El formato para el código viene dado por la configuración por
+  defecto de `mix format`.
 
 - Todo el código incluido en el repositorio debe haber sido formateado
   usando `mix format`. Se recomienda forzar este aspecto con acciones
   _precommit_ y/o de integración continua.
 
-- El estilo de codificación está descrito en esta documento:
-  [https://github.com/christopheradams/elixir_style_guide](The Elixir
-  Style Guide).
+- El estilo de codificación está descrito en esta documento: [The
+  Elixir Style
+  Guide](https://github.com/christopheradams/elixir_style_guide).
   
 - La estructura del proyecto parte de la estructura creada por `mix
   new`.
@@ -26,14 +27,16 @@
 Usar _Conventional commits_, con el siguiente cambio: complementar el
 _type_ indicado en la especificación con el _gitmoji_ correspondiente.
 
-Referencias:
+Referencias útiles:
 
-  - [https://www.conventionalcommits.org/en/v1.0.0/](Conventional Commits)
+  - [Conventional
+    Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
-  - [https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/](How
-  to Write Better Git Commit Messages)
+  - [How to Write Better Git Commit
+    Messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
   
-  - [https://gitmoji.dev/](gitmoji)
+  
+  - [gitmoji](https://gitmoji.dev/)
 
 
 ## El control de versiones
@@ -46,9 +49,9 @@ Referencias:
   IDE particular.
   
 - Se recomienda el uso de ramas. En caso de usarlas se debe establecer
-  una estrategia para su gestión, p.e.:
-  [https://www.abtasty.com/blog/git-branching-strategies/](What Are
-  the Best Git Branching Strategies)
+  una estrategia para su gestión, p.e.: [What Are the Best Git
+  Branching
+  Strategies](https://www.abtasty.com/blog/git-branching-strategies/)
 
 
 ## El diseño de la arquitectura
@@ -64,8 +67,8 @@ Referencias:
   versión en formato _PDF_ o _PNG_.
 
 - Todos los cambios y decisiones adoptadas en el diseño se documentan
-  siguiendo el formato [https://adr.github.io/](Architectural Decision
-  Records).
+  siguiendo el formato [Architectural Decision
+  Records](https://adr.github.io/).
 
 
 ## Las pruebas
@@ -102,4 +105,4 @@ La documentación del proyecto incluye:
   
   - Documentación de los tests. Tal y como se describe en el apartado
     correspondiente.
-  
+
