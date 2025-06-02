@@ -24,7 +24,7 @@ La propuesta se debe realizar teniendo en cuenta lo siguiente:
     únicos. En cualquier caso, dichos requisitos deben materializarse
     en la aplicación de las tácticas estudiadas durante el cuatrimestre.
 
-  - Debe incluir un diseño prelimnar de la arquitectura. No es
+  - Debe incluir un diseño preliminar de la arquitectura. No es
     necesario que dicho diseño tenga un nivel de detalle
     grande. Obviamente, será un diseño incial que variará a lo largo
     del desarrollo del proyecto.
