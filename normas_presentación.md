@@ -1,7 +1,7 @@
 # Presentación
 
 Durante la última clase del cuatrimestre cada grupo realizará una
-breve presentación del proyecto desarrollado siguiendo estas
+breve presentación de los resultados de su proyecto siguiendo estas
 indicaciones:
 
   - Deben participar todos los integrantes del grupo.
@@ -20,7 +20,8 @@ indicaciones:
 
 ## Contenido
 
-La presentación debe tratar los siguientes aspectos:
+La presentación debe tratar los siguientes aspectos, en el orden que
+el equipo de desarrollo condisere oportuno:
   
   - Breve descripción de la aplicación.
   
@@ -30,26 +31,23 @@ La presentación debe tratar los siguientes aspectos:
   - Descripción de la solución arquitectónica final, incluyendo:
   
     * Representación C4
+	
+	* Diagrama de despliegue (si no es trivial)
           
     * Tácticas aplicadas al diseño para cumplir los requisitos no
       funcionales
           
-  - Si exsiten, aspectos relevantes de la implementación. Estos
-    aspecto se puede referir a:
+  - Si exsiten, aspectos especialmente relevantes de la
+    implementación. Estos aspecto se puede referir a:
   
     * Estructura del proyecto en el repositorio
           
     * Elementos destacados del lenguaje, librerías, ... (posible uso
       de Agents, Tasks, GenServer, Supervisor, ...)
           
-	* Cualquier otro aspecto que pudiera ser relevante
+	* Cualquier otro aspecto que considere el equipo de desarrollo
 
   - Alcance de las pruebas.
           
   - Demostración del funcionamiento donde se muestren los aspectos
     relativos a la arquitectura, tácticas y/o pruebas.
-
-
-La presentación seguirá el guión que el equipo de desarrollo considere
-oportuno. No es necesario seguir el orden establecido en el punto
-anterior.
