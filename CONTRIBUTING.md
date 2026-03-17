@@ -15,10 +15,12 @@ normas:
 - Documentación: No solo digáis qué hace la función, usad ExDoc y
   typespecs para que el código se autodocumente.
 
-> [!TIP] Las acciones de tipo _precommit_ y de integración continua
+> [!TIP]
+> Las acciones de tipo _precommit_ y de integración continua
 > pueden automatiza el uso de mix format.
 
-> [!TIP] El formato se describe en docuementos como este: [The Elixir
+> [!TIP]
+> El formato se describe en documentos como este: [The Elixir
 > Style
 > Guide](https://github.com/christopheradams/elixir_style_guide).
 
@@ -35,7 +37,8 @@ normas:
   ningún IDE particular y evitar los commits desde la interfaz web de
   github siempre que sea posible.
 
-> [!TIP] Los siguientes documentos os ayudarán a establecer unas
+> [!TIP]
+> Los siguientes documentos os ayudarán a establecer unas
 > normas comunes:
 >
 > [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -45,7 +48,8 @@ normas:
 > 
 > [gitmoji](https://gitmoji.dev/)
 
-> [!TIP] Este documento compara las estrategias más habituales para el
+> [!TIP]
+> Este documento compara las estrategias más habituales para el
 > uso de ramas: [What Are the Best Git Branching
 > Strategies](https://www.abtasty.com/blog/git-branching-strategies/)
 
