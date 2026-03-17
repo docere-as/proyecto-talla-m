@@ -19,6 +19,8 @@ La presentación debe seguir este flujo:
 5. Demostración: Breve demo en vivo enfocada en la arquitectura y
    tácticas.
    
+6. Ronda abierta de preguntas.
+
 > [!IMPORTANT]
 > Debéis centraros en demostrar los apectos relativos a la 
 > arquitectura, tácticas y pruebas.
@@ -27,8 +29,6 @@ La presentación debe seguir este flujo:
 > No olvideis incluir en el respositorio las instrucciones
 > para replicar la demo.
    
-6. Ronda abierta de preguntas.
-
 > [!WARNING]
 > Todos los miembros deben participar y el material de
 > apoyo debe subirse al repositorio.
