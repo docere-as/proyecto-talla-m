@@ -8,7 +8,7 @@ lógico para construir un proyecto de calidad.
    [estructura básica](normas_propuesta.md).
 
 2. Validación: El profesor debe dar el visto bueno. Una vez aprobado,
-   trasladad el detalle a [doc/propuesto.md](doc/propuesta.md).
+   trasladad el detalle a [doc/propuesta.md](doc/propuesta.md).
 
 3. Configuración del Equipo: Identificaos en
    [proyecto.md](proyecto.md) y revisad las "reglas del juego" en
