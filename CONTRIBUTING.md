@@ -1,33 +1,35 @@
-# Styleguide
+# Manual de Estilo
+
+Para que el repositorio del proyecto no sea un caos, acordamos estas
+normas:
 
 
-## El código fuente
+## 🛠 Desarrollo y Código
 
-- Documentar el código con _ExDoc_.
+- Lenguaje: Usamos Elixir. Aprovechad sus fortalezas: GenServer,
+  Supervisors, Agents.
 
-- Se recomienda usar anotaciones de tipos con `typespec` y demás.
-
-- El formato para el código viene dado por la configuración por
-  defecto de `mix format`.
-
-- Todo el código incluido en el repositorio debe haber sido formateado
-  usando `mix format`. Se recomienda forzar este aspecto con acciones
-  _precommit_ y/o de integración continua.
-
-- El estilo de codificación está descrito en esta documento: [The
-  Elixir Style
-  Guide](https://github.com/christopheradams/elixir_style_guide).
+- Limpieza: El comando mix format es nuestro mejor amigo. Usadlo
+  siempre antes de subir código.
   
-- La estructura del proyecto parte de la estructura creada por `mix
-  new`.
+  > [!TIP] Las acciones de tipo _precommit_ y de integración continua
+  > pueden automatiza el uso de mix format.
+
+  > [!TIP] El formato se describe en docuementos como este: [The Elixir
+  > Style
+  > Guide](https://github.com/christopheradams/elixir_style_guide).
+
+- Documentación: No solo digáis qué hace la función, usad ExDoc y
+  typespecs para que el código se autodocumente.
 
   
-## Los mensajes de commit
+## 🌿 Control de Versiones (Git)
 
-Usar _Conventional commits_, con el siguiente cambio: complementar el
-_type_ indicado en la especificación con el _gitmoji_ correspondiente.
+- Commits: Pequeños y frecuentes. Usad el formato: emoji + tipo:
+  descripción (Ej: 🚀 feat: añadir sistema de mensajería).
 
-Referencias útiles:
+  > [!TIP] Los siguientes documentos os ayudarán a establecer unas
+  > normas comunes:
 
   - [Conventional
     Commits](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -38,72 +40,40 @@ Referencias útiles:
   
   - [gitmoji](https://gitmoji.dev/)
 
+- Ramas: No trabajéis todos sobre main. Usad ramas y luego
+  integradlas.
 
-## El control de versiones
+  > [!TIP] Este documento compara las estrategias más habituales para el
+  > uso de ramas: [What Are the Best Git Branching
+  > Strategies](https://www.abtasty.com/blog/git-branching-strategies/)
 
-- Realizar commits pequeños y frecuentes.
+- Higiene: No incluir en el repositorio ficheros de configuración de
+  ningún IDE particular y evitar los commits desde la interfaz web de
+  github siempre que sea posible.
 
-- Evitar los commits desde la interfaz web de github siempre que sea posible.
 
-- No incluir en el repositorio ficheros de configuración de ningún
-  IDE particular.
+## 📐 Arquitectura
+
+- Modelo C4: Documentad los 4 niveles (Contexto, Contenedores,
+  Componentes y Código).
+
+- Decisiones (ADR): Si decidís cambiar el diseño, escribid un pequeño
+  documento explicando el motivo.
+
+  [Architectural Decision Records](https://adr.github.io/).
+
+- Documentación complementaria: diagrama e instrucciones de despliegue.
+
+- Higiene: dividid los diagramas muy complejos en partes.
   
-- Se recomienda el uso de ramas. En caso de usarlas se debe establecer
-  una estrategia para su gestión, p.e.: [What Are the Best Git
-  Branching
-  Strategies](https://www.abtasty.com/blog/git-branching-strategies/)
-
-
-## El diseño de la arquitectura
-
-- Documentar el diseño con los cuatro niveles del modelo C4.
-
-- Salvo que sea trivial, añadir un diagrama de despliegue.
-
-- En los casos en que los diagramas sean muy complejos, es preferible
-  dividirlos en varios diagramas.
-  
-- Además de las fuentes de los diagramas, añadir al repositorio su
+  Además de las fuentes de los diagramas, añadir al repositorio su
   versión en formato _PDF_ o _PNG_.
 
-- Todos los cambios y decisiones adoptadas en el diseño se documentan
-  siguiendo el formato [Architectural Decision
-  Records](https://adr.github.io/).
 
+## Calidad
 
-## Las pruebas
-
-- El esfuerzo principal se dedica a las pruebas software
-  automatizadas.
-  
-- Las pruebas automatizadas se ejecutan con `mix test`.
-
-- Opcionalmente, se realizarán pruebas exploratorias.
-
-- En caso de realizar pruebas exploratorias, es primordial que sean
-  reproducibles y documentar los pasos necesarios para reproducirlas.
-  
-- Documentar los tipos de pruebas realizadas, los escenarios cubiertos,
-  y los escenarios no cubiertos.
-  
-
-## La documentación
-
-La documentación del proyecto incluye:
-
-  - Breve descripción del sistema desarrollado, y cualquier otra
-    información que contribuya a una mejor comprensión del mismo.
-  
-  - Requisitos funcionales.
-  
-  - Requisitios no funcionales del mismo.
-
-  - Diseño de la arquitectura. Tal y como se describe en el apartado
-    correspondiente.
-
-  - Instrucciones para compilar, desplegar y  utilizar la aplicación.
-  
-  - Documentación de los tests. Tal y como se describe en el apartado
-    correspondiente.
-
-  - El material audiovisual empleado en la presentación.
+- Pruebas: No hay código sin test. Usad `mix test`. Si hacéis pruebas
+  manuales, documentad los pasos para que caulquiera pueda repetirlas.
+	
+> [!NOTE]
+> Preferimos las pruebas automatizadas.

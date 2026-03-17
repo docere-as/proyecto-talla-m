@@ -1,30 +1,19 @@
-# Elaboración de la propuesta
+# Definición del Proyecto
 
-El desarrollo de esta práctica incluye la propuesta, diseño,
-documentación, implementación, testing y presentación de un sistema
-propuesto por el grupo de trabajo.
+El objetivo no es hacer una aplicación con mil funciones, sino una
+aplicación bien diseñada arquitectónicamente.
 
-La propuesta se debe realizar teniendo en cuenta lo siguiente:
+- El Qué (Funcional): ¿Qué hace la app? (Ej: Un sistema de chat, un
+  gestor de sensores).
 
-  - Debe incluir la descripción tanto de los requisitos funcionales,
-    como no funcionales.
+- El Cómo (No Funcional): Aquí está el corazón de la asignatura. ¿Debe
+  ser rápido? ¿Debe seguir funcionando si un nodo cae
+  (disponibilidad)? ¿Cómo se protege la información (seguridad)?
 
-  - Debe ser validada por el profesor de la asignatura.
+- La Estrategia (Arquitectura): Debéis elegir una arquitectura
+  distribuida (Client-Server, Peer-to-Peer, Microservicios, etc.) y
+  aplicar tácticas (redundancia, balanceo de carga,
+  latidos/heartbeats) para cumplir esos requisitos no funcionales.
 
-  - La funcionalidad del sistema no es el objetivo de la práctica.
-
-  - El diseño de la aplicación debe seguir alguna de las
-    arquitecturas estudiadas durante el cuatrimestre, una combinación
-    de las mismas, o alguna otra arquitectura propuesta por el
-    grupo. Dicho diseño tiene que ser una solución efectiva para el
-    problema planteado.
-	
-  - Los requisitos no funcionales más habituales están relacionados
-    con el rendimiento, disponibilidad y seguridad, aunque no son los
-    únicos. En cualquier caso, dichos requisitos deben materializarse
-    en la aplicación de las tácticas estudiadas durante el cuatrimestre.
-
-  - Debe incluir un diseño preliminar de la arquitectura. No es
-    necesario que dicho diseño tenga un nivel de detalle
-    grande. Obviamente, será un diseño incial que variará a lo largo
-    del desarrollo del proyecto.
+- El Boceto: Presentad un diagrama C4 inicial (Nivel 1 y 2). No tiene
+  que ser perfecto, pero sí mostrar la intención.

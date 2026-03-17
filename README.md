@@ -1,54 +1,62 @@
-# Nombre del proyecto
+# Hoja de Ruta del Proyecto
 
-A continuación se muestran las instrucciones principales para el
-desarrollo del proyecto.
+Esta es la hoja de ruta, no es sólo una lista de tareas, es el orden
+lógico para construir un proyecto de calidad.
 
-## Instrucciones
 
-Dentro de este repositorio:
+1. Fase de Propuesta: Definid qué vais a construir y cómo será su
+   [estructura básica](normas_propuesta.md).
 
-1. Elaborar una propuesta de proyecto siguiendo las normas indicadas
-   en [normas para la propuesta](normas_propuesta.md) y someterla a
-   aprobación.
+2. Validación: El profesor debe dar el visto bueno. Una vez aprobado,
+   trasladad el detalle a [doc/propuesto.md](doc/propuesta.md).
 
-2. Una vez admitida la propuesta del proyecto, incluir la
-   documentación de dicha propuesta en el fichero
-   [doc/propuesta.md](doc/propuesta.md), siguiendo las indicaciones
-   que contiene el propio fichero.
-
-3. Cubrir los datos indicados en el fichero
-   [proyecto.md](proyecto.md), respetando el formato original.
+3. Configuración del Equipo: Identificaos en
+   [proyecto.md](proyecto.md) y revisad las "reglas del juego" en
+   [CONTRIBUTING.md](CONTRIBUTING.md). ¡Es vital que todos estéis de
+   acuerdo en cómo trabajar!
    
-4. Usar `mix new` para crear la estructura inicial del código del
-   proyecto.
- 
-5. Evaluar el documento [CONTRIBUTING.md](CONTRIBUTING.md). Si el
-   equipo no está de acuerdo con el contenido, realizar las
-   modificaciones oportunas.
+   [!TIP] Si no estáis de acuerdo, podéis modificar el contenido del
+   fichero `CONTIBUTING.md`.
+
+4. Despegue Técnico: Usad mix new para crear el esqueleto en Elixir.
+
+5. Construcción Continua: Mantened el repositorio vivo. El diseño y el
+   código evolucionan juntos. Usad los ADR (Architectural Decision
+   Records) para documentar los cambios.
    
-6. Una vez aprobado el documento [CONTRIBUTING.md](CONTRIBUTING.md),
-   seguir sus normas durante todo el desarrollo del proyecto.
-   
-7. Mantener actualizado este repositorio, incluyendo:
-
-   - Cambios en el diseño.
-   
-   - Cambios en la implementación.
-   
-   - Creación de otros recursos. P.e.: presentación, documentos de
-     retrospectiva, etc.
-
-8. Presentar los resultados en la última semana del cuatrimestre. La
-   presentación es presencial y debe seguir las siguientes
-   [normas para la presentación](normas_presentación.md).
+   [!TIP] Durante el desarrollo del proyecto podéis autoevaluar
+   vuestro progreso con la siguiente [guía para la
+   evaluación](guía_evaluación.md).
 
 
-Durante el desarrollo del proyecto usar la siguiente
-[guía para la evaluación](guía_evaluación.md), para realizar una
-autoevaluación del progreso.
+6. _Gran Finale_: Presentad vuestro trabajo en la última semana
+   siguiendo las [normas para la
+   presentación](normas_presentación.md).
+
+> [!CAUTION] Aprendizaje Cooperativo: Este proyecto es un esfuerzo de
+> equipo. Si alguien no participa equitativamente, la evaluación
+> dejará de ser grupal para ser individual.
+
+![infografía.png](inforgrafía.png)
+
+# Entregables
+
+Al finalizar el desarrollo el repositorio debe contener:
 
 
-> [!CAUTION]
-> Este es un trabajo en equipo, si se detecta una participación
-> desigual en el desarrollo del proyecto, el profesorado puede optar
-> por una evaluación individual del trabajo.
+  - Breve descripción del sistema.
+  
+  - Requisitos funcionales.
+  
+  - Requisitios no funcionales.
+
+  - Diseño de la arquitectura + ADRs
+
+  - Instrucciones para compilar, desplegar y  utilizar la aplicación.
+  
+  - Documentación de los tipos de pruebas realizadas, los escenarios
+    cubiertos, y los escenarios no cubiertos.
+
+  - El material audiovisual empleado en la presentación.
+
+  - Código del proyecto.

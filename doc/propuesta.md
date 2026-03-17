@@ -1,20 +1,22 @@
-# Nombre del proyecto
+# Plantilla de Propuesta
 
-## Descripción de la aplicación
+(Seguid esta estructura para vuestro primer documento)
 
-Breve descripción del sistema desarrollado, así como los requisitos
-funcionales y no funcionales del mismo, y cualquier otra información
-que contribuya a una mejor comprensión del mismo.
 
-## Requisitos funcionales
+[Nombre del Proyecto]
 
-## Requisitos no funcionales
+- Descripción: Un párrafo que explique la esencia del sistema.
 
-## Propuesta de arquitectura
+- Funciones principales: Listado de lo que el usuario puede hacer (requisitos funcionales).
 
-Diseño de la arquitectura propuesta siguiendo el modelo C4, niveles 1
-y 2.
+- Atributos de calidad: ¿Qué hace que este sistema sea "bueno"?
+  (Rendimiento, tolerancia a fallos, etc.), (requisitos no
+  funcionales).
 
+- Arquitectura Inicial: (Insertad aquí vuestros diagramas de Contexto
+  y Contenedores usando Mermaid).
+	
+	
 ```mermaid
 C4Context
   title Diagrama de contexto de Nombre de la aplicación
