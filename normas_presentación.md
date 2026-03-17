@@ -19,12 +19,13 @@ La presentación debe seguir este flujo:
 5. Demostración: Breve demo en vivo enfocada en la arquitectura y
    tácticas.
    
-   > [!IMPORTANT]
-   > Debéis centraros en demostrar los apectos relativos a la 
-   > arquitectura, tácticas y pruebas.
+> [!IMPORTANT]
+> Debéis centraros en demostrar los apectos relativos a la 
+> arquitectura, tácticas y pruebas.
    
-   > [!NOTE] No olvideis incluir en el respositorio las instrucciones
-   > para replicar la demo.
+> [!NOTE]
+> No olvideis incluir en el respositorio las instrucciones
+> para replicar la demo.
    
 6. Ronda abierta de preguntas.
 

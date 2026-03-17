@@ -15,8 +15,9 @@ lógico para construir un proyecto de calidad.
    [CONTRIBUTING.md](CONTRIBUTING.md). ¡Es vital que todos estéis de
    acuerdo en cómo trabajar!
    
-   [!TIP] Si no estáis de acuerdo, podéis modificar el contenido del
-   fichero `CONTIBUTING.md`.
+   > [!TIP]
+   > Si no estáis de acuerdo, podéis modificar el contenido del
+   > fichero `CONTIBUTING.md`.
 
 4. Despegue Técnico: Usad mix new para crear el esqueleto en Elixir.
 
@@ -24,16 +25,18 @@ lógico para construir un proyecto de calidad.
    código evolucionan juntos. Usad los ADR (Architectural Decision
    Records) para documentar los cambios.
    
-   [!TIP] Durante el desarrollo del proyecto podéis autoevaluar
-   vuestro progreso con la siguiente [guía para la
-   evaluación](guía_evaluación.md).
+   > [!TIP]
+   > Durante el desarrollo del proyecto podéis autoevaluar
+   > vuestro progreso con la siguiente [guía para la
+   > evaluación](guía_evaluación.md).
 
 
 6. _Gran Finale_: Presentad vuestro trabajo en la última semana
    siguiendo las [normas para la
    presentación](normas_presentación.md).
 
-> [!CAUTION] Aprendizaje Cooperativo: Este proyecto es un esfuerzo de
+> [!CAUTION]
+> Aprendizaje Cooperativo: Este proyecto es un esfuerzo de
 > equipo. Si alguien no participa equitativamente, la evaluación
 > dejará de ser grupal para ser individual.
 

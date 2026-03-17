@@ -19,7 +19,7 @@ Para completar la tabla anterior, tened en cuenta también:
 
 - La documentación de la arquitectura no se limita a los diagramas C4.
 	
-- Hay un uso del control de versiones 
+- Hay un uso coherente del control de versiones.
 
 - Se explotan las capacidades de _elixir_: _behaviours_, _mix_,
   _heartbeat_, ...
