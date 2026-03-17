@@ -37,6 +37,8 @@ lógico para construir un proyecto de calidad.
 > equipo. Si alguien no participa equitativamente, la evaluación
 > dejará de ser grupal para ser individual.
 
+---
+
 ![infografía.png](infografía.png)
 
 # Entregables
