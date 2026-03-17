@@ -1,4 +1,4 @@
-# La resentación Final
+# La presentación Final
 
 Es el momento de demostrar lo aprendido. Durante la última clase del
 cuatrimestre cada grupo realizará una breve presentación de su
